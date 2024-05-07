@@ -1,18 +1,21 @@
 :root {
-	--gold: rgb(245, 208, 78);
+	--yellow: rgb(245, 208, 78);
+	--grey: hsl(0, 0, 50);
+	--black: hsl(0, 0, 7);
 }
 
 body {
 	font-family: "Figtree", Arial, Helvetica, "sans-serif";
+	color: var(--black);
 	display: grid;
 	min-height: 100vh;
 	place-items: center;
-	background-color: var(--gold);
+	background-color: var(--yellow);
 }
 
 .card {
 	display: grid;
-	border-color: black;
+	border-color: var(--black);
 	border-style: solid;
 	background-color: white;
 	border-radius: 20px;
@@ -31,7 +34,7 @@ body {
 }
 
 .type {
-	background-color: var(--gold);
+	background-color: var(--yellow);
 	font-weight: bold;
 	font-size: small;
 	border-radius: 5px;
@@ -46,14 +49,14 @@ body {
 
 h1 {
 	font-size: x-large;
-	font-weight: 900;
+	font-weight: 800;
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
 
 p {
-	font-size: medium;
-	color: rgb(127, 127, 127);
+	font-size: 16px;
+	color: var(--grey);
 	margin: 20px 0px;
 }
 
