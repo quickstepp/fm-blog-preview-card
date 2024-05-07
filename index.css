@@ -1,0 +1,77 @@
+:root {
+	--gold: rgb(245, 208, 78);
+}
+
+body {
+	font-family: "Figtree", Arial, Helvetica, "sans-serif";
+	display: grid;
+	min-height: 100vh;
+	place-items: center;
+	background-color: var(--gold);
+}
+
+.card {
+	display: grid;
+	border-color: black;
+	border-style: solid;
+	background-color: white;
+	border-radius: 20px;
+	border-width: 1px;
+	max-width: 300px;
+	min-width: 100px;
+	box-shadow: 10px 10px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.thumbnail {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.type {
+	background-color: var(--gold);
+	font-weight: bold;
+	font-size: small;
+	border-radius: 5px;
+	width: fit-content;
+	padding: 5px 10px;
+}
+
+.published {
+	font-size: small;
+	padding-top: 10px;
+}
+
+h1 {
+	font-size: x-large;
+	font-weight: 900;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: medium;
+	color: rgb(127, 127, 127);
+	margin: 20px 0px;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: bold;
+}
+
+.avatar {
+	width: 30px;
+	height: 30px;
+}
+
+.card:hover {
+	cursor: pointer;
+    h1 {
+        color: var(--gold);
+    } 
+}
