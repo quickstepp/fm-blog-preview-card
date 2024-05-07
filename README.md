@@ -57,7 +57,7 @@ Activating the hover-effect, when the curso is over the card not just the title.
 .card:hover {
 	cursor: pointer;
     h1 {
-        color: var(--gold);
+        color: var(--yellow);
     } 
 }
 ```
